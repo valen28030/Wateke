@@ -1,0 +1,203 @@
+body {
+    background-image: url('../img/fondo.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.15em;
+    word-spacing: 0.2em;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+h1 {
+    background-color: #1900a8;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2.5em;
+    color: #fff;
+}
+.tabla-titulo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+main {
+    padding: 20px 0;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form label {
+    color: #fff;
+}
+
+form select, form input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form select {
+    background-color: #333;
+    color: #fff;
+}
+
+form input[type="text"] {
+    background-color: #333;
+    color: #fff;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #ff00ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #ff007f;
+}
+
+
+footer {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+    color: aliceblue;
+}
+
+.reggaeton-clubs {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.techno-clubs {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+    margin-top: 3%;
+}
+.footer-nav {
+    text-align: center; /* Centra los enlaces horizontalmente */
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    margin-right: 20px; /* Ajusta el margen derecho para separar los enlaces */
+    border-radius: 10px; /* Agrega bordes redondeados */
+}
+
+.footer-nav a:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último enlace para evitar un espacio adicional */
+}
+
+.footer-nav a:hover {
+    background-color: #b3ff003f; /* Color de fondo cuando se pasa el cursor */
+    border-radius: 10px; /* Agrega bordes redondeados al pasar el cursor */
+}
+
+ul{align-items: center;}
+
+/* Estilos para las estrellas */
+.star {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.star:hover,
+.star.filled {
+    color: #ff0;
+}
+.tabla-discotecas {
+    border-collapse: separate;
+    border-spacing: 10px; /* Espacio entre las celdas */
+    width: 100%;
+}
+
+.tabla-discotecas th, .tabla-discotecas td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.tabla-discotecas th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #f2f2f2;
+    color: #000;
+}
+
+.tabla-discotecas td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #e0f2f8;
+    border-radius: 10px;
+}
+
+.tabla-titulo {
+    text-align: center;
+    margin-top: 20px;
+}
+.hidden-link {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff; /* Color del botón */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Color del botón al pasar el ratón */
+}
+
+.rating {
+    display: inline-block;
+  }
+  
+  .rating input[type="radio"] {
+    display: none;
+  }
+  
+  .rating label {
+    cursor: pointer;
+    font-size: 30px;
+  }
+  
+  .rating label:before {
+    content: '\2605'; /* Estrella vacía */
+  }
+  
+  .rating input[type="radio"]:checked ~ label:before {
+    content: '\2605'; /* Estrella rellena */
+    color: #ff0;
+  }
+  
+  
