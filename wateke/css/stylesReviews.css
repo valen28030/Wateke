@@ -1,0 +1,172 @@
+body {
+    background-image: url('../img/fondo.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.15em;
+    word-spacing: 0.2em;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+h1 {
+    background-color: #1900a8;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2.5em;
+    color: #fff;
+}
+.tabla-titulo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+form {
+    display: grid; /* Cambio a grid layout para mejor alineación */
+    gap: 20px; /* Espacio entre elementos */
+}
+
+form label {
+    color: #333;
+    margin-bottom: 5px; /* Espacio entre etiquetas y campos */
+}
+
+form select, form input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: calc(100% - 20px); /* Ancho del campo */
+}
+
+form select {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+form input[type="text"] {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #ff00ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    justify-self: center; /* Centrar el botón */
+    margin-top: 20px; /* Espacio arriba del botón */
+}
+
+form button:hover {
+    background-color: #ff007f;
+}
+
+.error-message {
+    color: #ff0000;
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+
+footer {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+    color: aliceblue;
+}
+
+footer{
+    margin-top: 3%;
+}
+.footer-nav {
+    text-align: center; /* Centra los enlaces horizontalmente */
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    margin-right: 20px; /* Ajusta el margen derecho para separar los enlaces */
+    border-radius: 10px; /* Agrega bordes redondeados */
+}
+
+.footer-nav a:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último enlace para evitar un espacio adicional */
+}
+
+.footer-nav a:hover {
+    background-color: #b3ff003f; /* Color de fondo cuando se pasa el cursor */
+    border-radius: 10px; /* Agrega bordes redondeados al pasar el cursor */
+}
+
+/* Estilos para las estrellas */
+.star {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.star:hover,
+.star.filled {
+    color: #ff0;
+}
+
+.hidden-link {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Color del botón */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Color del botón al pasar el ratón */
+}
+form select {
+    width: calc(100%); /* Ajusta el ancho para que sea del mismo tamaño que los otros campos */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form input[type="text"] {
+    width: calc(100% - 22px); /* Ajusta el ancho para que sea del mismo tamaño que los otros campos */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form textarea {
+    width: calc(100% - 22px); /* Ajusta el ancho para que sea del mismo tamaño que los otros campos */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
