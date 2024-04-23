@@ -2,6 +2,8 @@
         <h1>Wateke: Descubre las Mejores Discotecas en tu Ciudad</h1>
         <p align="justify">Bienvenido a Wateke, tu portal especializado en la búsqueda y exploración de las discotecas más vibrantes y emocionantes de tu ciudad.</p>
         <p align="justify">Con Wateke, encontrarás fácilmente el lugar perfecto para disfrutar de una noche inolvidable llena de música y diversión.</p>
+        <p> <strong>Visual Studio Code y Xampp (phpMyAdmin).</strong></p>
+        <p> <strong>Lenguajes: PHP, SQL, HTML y CSS.</strong></p>
         <h2>Pantalla Principal: Explora y Encuentra tu Discoteca Ideal</h2>
         <p align="justify">En nuestra pantalla principal, te damos la bienvenida con un diseño intuitivo y fácil de usar. Aquí, encontrarás:</p>
 
