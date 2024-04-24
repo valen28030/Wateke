@@ -63,3 +63,19 @@
 
 ![tabla2](https://github.com/valen28030/Wateke/assets/167770750/92c77ce8-159a-484b-b5e6-424c8c1e61fa)
     </div>
+
+&nbsp;
+## Créditos
+
+- **Desarrollador**: [Carlos Valencia Sánchez]
+- **Diseñador de Web**: [Carlos Valencia Sánchez]
+- **Artista Gráfico**: [Carlos Valencia Sánchez]
+
+&nbsp;
+## Contacto
+
+Para obtener soporte técnico, reportar errores o proporcionar comentarios, no dudes en contactar.
+
+---
+Este documento proporciona una visión general de la web, incluyendo sus características, tecnología utilizada, requisitos del sistema, instrucciones y créditos. Para obtener más información detallada sobre el desarrollo y funcionamiento de la web, consulta la documentación interna o comunícate con el desarrollador.
+
